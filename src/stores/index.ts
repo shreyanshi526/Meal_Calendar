@@ -1,8 +1,7 @@
 import { createStore } from 'vuex';
-import counter from './counter';  // Import the counter module
-import meal from './Meals';        // Import the meal module
+import counter from './counter';  
+import meal from './Meals';        
 
-// Create the main store
 const store = createStore({
   modules: {
     counter,
